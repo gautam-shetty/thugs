@@ -6,6 +6,7 @@
   "private": true,
   "scripts": {
     "start": "electron .",
+    "prestart": "npm run build",
     "build": "webpack --config webpack.config.js"
   },
   "repository": {
