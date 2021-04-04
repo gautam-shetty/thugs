@@ -50,29 +50,29 @@ module.exports = {
     },
 
     // CSS
-    {
-        test: /\.css$/,
-        use:
-        [
-            MiniCSSExtractPlugin.loader,
-            'css-loader'
-        ]
-    },
+    // {
+    //     test: /\.css$/,
+    //     use:
+    //     [
+    //         MiniCSSExtractPlugin.loader,
+    //         'css-loader'
+    //     ]
+    // },
 
     // Images
-    {
-        test: /\.(jpg|png|gif|svg)$/,
-        use:
-        [
-            {
-                loader: 'file-loader',
-                options:
-                {
-                    outputPath: 'assets/images/'
-                }
-            }
-        ]
-    },
+    // {
+    //     test: /\.(jpg|png|gif|svg)$/,
+    //     use:
+    //     [
+    //         {
+    //             loader: 'file-loader',
+    //             options:
+    //             {
+    //                 outputPath: 'assets/images/'
+    //             }
+    //         }
+    //     ]
+    // },
 
     // Fonts
     {
